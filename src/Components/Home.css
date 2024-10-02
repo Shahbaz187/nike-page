@@ -1,0 +1,42 @@
+.home-section{
+    width: 100%;
+    height: calc(100vh - 80px);
+    padding: 0 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home-contant h1{
+    font-size: 108px;
+    line-height: 102px;
+    font-weight: 800;
+}
+.home-contant p {
+    margin-top: 10px;
+    width: 90%;
+}
+.home-contant button{
+    padding: 7px 15px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 4px;
+    transition: 0.3s linear;
+    margin-top: 8px ;
+    margin-right: 10px ;
+}
+.home-contant button:nth-child(1){
+    background: red;
+    color: white;
+}
+.home-contant button:nth-child(2){
+    border: 1px solid rgba(0, 0, 0, 0.7);
+}
+.shopping-contant{
+    margin-top: 22px;
+}
+.brands-icons img{
+    margin: 10px 9px;
+
+}
